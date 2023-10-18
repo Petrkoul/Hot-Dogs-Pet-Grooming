@@ -8,9 +8,16 @@ p {
   font-family: Roboto, Arial;
 }
 
-@media (max-width: 711px){
+@media (max-width: 711px) and (min-width:550px){
   body{
     margin:0;
     padding-top: 145px;
+  }
+}
+
+@media (max-width: 550px){
+  body{
+    margin:0;
+    padding-top:170px;
   }
 }
