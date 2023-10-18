@@ -25,10 +25,18 @@
 }
 
 .ypiresies-skilou-titlos{
+  font-size: 24px;
   border-bottom: 3px dashed rgb(103, 34, 166);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+
+@media (max-width: 499px){
+  .ypiresies-skilou-titlos{
+    border-bottom: none;
+    font-weight: bold;
+  }
+} 
 
 .bottom{
   background-color: rgb(255, 255, 0);
