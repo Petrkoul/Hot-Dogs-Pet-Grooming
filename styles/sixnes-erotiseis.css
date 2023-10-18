@@ -12,6 +12,15 @@
   align-items: center;
 }
 
+@media (max-width: 550px){
+  .erotisi{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid black;
+    align-items: center;
+  }
+}
+
 .erotisi-1, .erotisi-3, .erotisi-5{
   color: white;
   text-align: center;
@@ -27,6 +36,19 @@
   background-color: white;
   color: black;
   text-align: center; 
+}
+
+@media (max-width: 550px){
+  .erotisi-1, .erotisi-2, .erotisi-3, .erotisi-4, .erotisi-5{
+    color: white;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .apantisi-1, .apantisi-3, .apantisi-5{
@@ -46,3 +68,15 @@
   align-items: center;
 }
 
+@media (max-width: 550px){
+  .apantisi-1, .apantisi-2, .apantisi-3, .apantisi-4, .apantisi-5{
+    color: black;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+  }
+}
