@@ -20,6 +20,7 @@
   .ypiresies-gatas-grid{
   display: grid;
   grid-template-columns: 1fr;
+  margin-top: 10px;
   }
   .photo-ypiresies-gatas{
     margin-left:0;
