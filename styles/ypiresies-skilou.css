@@ -19,6 +19,7 @@
   .ypiresies-skilou-grid{
   display: grid;
   grid-template-columns: 1fr;
+  margin-top: 10px;
   }
   .photo-ypiresies-skilou{
     margin-left:0;
