@@ -40,7 +40,7 @@
 
 .header {
   height: 80px;
-  background-color: rgb(252, 73, 133);
+  background-color: #D6245F;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
