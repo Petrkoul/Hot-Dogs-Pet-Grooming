@@ -5,13 +5,7 @@
   justify-content: center;
 }
 
-.main-3{
-  border-bottom-width: 2px;
-  border-bottom-color:rgb(103, 34, 166);
-  border-bottom-style:outset;
-  padding-bottom: 50px;
-  box-shadow: 0 3px 3px rgba(103, 34, 166, 0.4);
-}
+
 
 @media (max-width: 550px){
   .main-1, .main-3{
